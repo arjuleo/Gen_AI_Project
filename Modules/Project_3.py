@@ -22,7 +22,7 @@ import os
 OPENAI_API_KEY       = os.getenv('OPENAI_API_KEY')
 
 File_Path                    = "C:\\GEN_AI_Project"
-PDFFile                      = "2022_Annual_Report_Sample" + ".pdf"
+PDFFile                      = "q2-2024-quarterly-results" + ".pdf"
 pdfreader                    = PdfReader(File_Path + "\\" + PDFFile)
 
 query                        = "Provide Summary of Financial Performance of the Company"
